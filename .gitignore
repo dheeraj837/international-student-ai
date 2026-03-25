@@ -1,10 +1,6 @@
 .env
-.streamlit/secrets.toml
 __pycache__/
 *.pyc
 *.pyo
 .DS_Store
 qdrant_data/
-*.egg-info/
-dist/
-build/

@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://api:8000"  # change to your deployed URL in production
+API_URL = os.getenv("API_URL", "http://api:8000")
 
 st.set_page_config(
     page_title="International Student AI Assistant",
